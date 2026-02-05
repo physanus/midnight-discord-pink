@@ -1,0 +1,61 @@
+/**
+ * @name midnight pink child
+ * @description a dark, pink, customizable discord theme. based on midnight pink theme (https://github.com/physanus/midnight-discord-pink).
+ * @version 1.0.0
+ * @website https://github.com/physanus/midnight-discord-pink
+ * @source https://github.com/physanus/midnight-discord-pink/blob/master/midnight-pink.child-theme.css
+*/
+
+/* import theme modules */
+@import url('https://raw.githubusercontent.com/physanus/midnight-discord-pink/refs/heads/main/midnight-pink.theme.css');
+
+.chatGradient__36d07 {
+    display: none
+}
+
+.visual-refresh .bg__960e4 {
+    filter: blur(60px) brightness(69%);
+    backdrop-filter: brightness(50%);
+    margin: -40px;
+    background-image: url("https://i.imgur.com/umbfVEF.jpeg");
+    background-repeat: no-repeat;
+    background-color: pink;
+    background-blend-mode: darken;
+}
+
+/*.content_e9e3ed {
+    background: var(--background-base-low);
+}*/
+
+/*body, .theme-dark:not(.custom-user-profile-theme), .theme-light:not(.custom-user-profile-theme) {
+        --background-base-low: hsla(283, 13.92%, 10.08%);
+        --background-base-lower: hsla(283, 13.92%, 10.08%);
+        --background-base-lowest: hsla(283, 13.92%, 10.08%);
+}*/
+
+.content_e9e3ed {
+        --background-base-low: hsla(283, 13.92%, 10.08%);
+        --background-base-lower: hsla(283, 13.92%, 10.08%);
+        --background-base-lowest: hsla(283, 13.92%, 10.08%);
+}
+
+.sidebar__409aa {
+    border-inline-end: none;
+}
+
+.contentBody_e9e3ed {
+    border-inline-end: none;
+}
+
+.contentHeader_e9e3ed {
+    background: hsla(283, 13.92%, 8%);
+    border-bottom: 2px solid var(--border-muted);
+}
+
+.sidebar__409aa {
+    background: hsla(283, 13.92%, 8%);
+}
+
+.leading_c38106 {
+    display: none;
+}
