@@ -13,16 +13,14 @@
     display: none
 }
 
-@container body style(--background-image: on) {
-    #app-mount .bg_Fd0FEH {
-        filter: blur(60px) brightness(69%);
-        backdrop-filter: brightness(50%);
-        margin: -40px;
-        background-image: url("https://i.imgur.com/umbfVEF.jpeg");
-        background-repeat: no-repeat;
-        background-color: pink;
-        background-blend-mode: darken;
-    }
+#app-mount .bg_Fd0FEH {
+    filter: blur(60px) brightness(69%);
+    backdrop-filter: brightness(50%);
+    margin: -40px;
+    background-image: url("https://i.imgur.com/umbfVEF.jpeg");
+    background-repeat: no-repeat;
+    background-color: pink;
+    background-blend-mode: darken;
 }
 
 /*.content_e9e3ed {
